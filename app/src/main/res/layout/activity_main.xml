@@ -29,15 +29,21 @@
                 android:text="HELP! My turkey is still frozen!"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="#3F51B5"/>
+
             <TextView
                 android:id="@+id/solution1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
-                android:text="It takes a long time to thaw a turkey in the fridge -- about 5 hours per pound. To speed up the process safely, you can defrost the turkey in cold water, which is not only a faster thawing method than the fridge but a gentler one. Simply put the turkey (still in its wrapper) in your kitchen sink and cover it with cold tap water. Every half hour, drain the water and refill the sink. The turkey will thaw at a rate of about 30 minutes per pound. Meanwhile, call your guests to tell them that dinner will be delayed. And don’t forget to remove the giblets after the bird is thawed. Oh, one last thing: we’d be remiss if we didn’t remind you that it’s never a good idea to thaw the bird on the counter overnight."
+                android:text="  It takes a long time to thaw  a turkey in the fridge -- about 5 hours per pound. \n  To speed up the process safely, you can defrost the turkey in cold water, which is not only a faster thawing method than the fridge but a gentler one. \n   Simply put the turkey (still in its wrapper) in your kitchen sink and cover it with cold tap water. \n  Every half hour, drain the water and refill the sink. The turkey will thaw at a rate of about 30 minutes per pound. \n  Meanwhile, call your guests to tell them that dinner will be delayed. And don’t forget to remove the giblets after the bird is thawed. \n   Oh, one last thing: we’d be remiss if we didn’t remind you that it’s never a good idea to thaw the bird on the counter overnight."
                 android:textAlignment="textStart"
                 android:textSize="15sp"
+                android:layout_marginStart = "15dp"
+                android:layout_marginEnd  = "15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#7986CB"
                 android:textStyle="bold"/>
         </LinearLayout>
         <LinearLayout
@@ -59,7 +65,8 @@
                 android:text="HELP! My turkey is too salty!"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="#3F51B5"/>
             <TextView
                 android:id="@+id/solution2"
                 android:layout_width="match_parent"
@@ -68,7 +75,11 @@
                 android:text="Depending on how much you’ve over salted, you may or may not be able to salvage the dish. If the salt is mildly out of balance, you can sometimes fix things by adding an acidic ingredient: lemon juice, vinegar, wine. This trick doesn’t exactly rectify the situation, but the acid distracts your taste buds from the salt. To actually fix an oversalted dish, you could double the recipe, adding more of all the other ingredients, except salt, and hope that does the trick. Or, if it’s an easy recipe, such as a salad dressing, and you have the ingredients on hand, the obvious thing to do is start over. As for that old saw about adding slices of peeled potato to the dish and cooking for 10 minutes (the idea being that the potato will absorb the excess salt): it hasn’t been proven to work."
                 android:textAlignment="textStart"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_marginStart = "15dp"
+                android:layout_marginEnd  = "15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#7986CB"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -89,7 +100,8 @@
                 android:text="HELP! My gravy is lumpy!"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="#3F51B5"/>
             <TextView
                 android:id="@+id/solution3"
                 android:layout_width="match_parent"
@@ -98,7 +110,11 @@
                 android:text="Those little lumps of undissolved starch are easy to get rid of. Simply strain the gravy through a fine sieve. If the strained gravy is thick enough to use, go ahead and serve it. If the gravy is too thin, return it to the stove and let it cook down to the consistency you desire. Or, you can quickly thicken the gravy by adding extra starch: thoroughly dissolve a teaspoon of flour or cornstarch in a little cool liquid, and then whisk it into the gravy and cook, stirring, until thickened."
                 android:textAlignment="textStart"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_marginStart = "15dp"
+                android:layout_marginEnd  = "15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#7986CB"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -119,7 +135,9 @@
                 android:text="HELP! My pie is too soupy!"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                />
             <TextView
                 android:id="@+id/solution4"
                 android:layout_width="match_parent"
@@ -128,7 +146,11 @@
                 android:text="Always have plenty of ice cream in the freezer on Thanksgiving day, just in case something like this happens. Instead of serving the pie, scoop ice cream into individual serving bowls, spoon the pie filling on top, and garnish with a dollop of whipped cream. Soupy pie fillings make excellent ice cream toppings."
                 android:textAlignment="textStart"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_marginStart = "15dp"
+                android:layout_marginEnd  = "15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#7986CB"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -149,7 +171,8 @@
                 android:text="HELP! My turkey is burnt!"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="#3F51B5"/>
             <TextView
                 android:id="@+id/solution5"
                 android:layout_width="match_parent"
@@ -158,7 +181,11 @@
                 android:text="If despite your best efforts, you wind up with dry breast meat, make lots of delicious gravy, ladle it generously over the meat, and don’t give it another thought. And if the dark meat is undercooked, simply carve off the legs and thighs, put them in a pan, and return them to the oven to continue roasting until they reach 170°F."
                 android:textAlignment="textStart"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_marginStart = "15dp"
+                android:layout_marginEnd  = "15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#7986CB"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
